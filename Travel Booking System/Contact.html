@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <style>
+        .custom-bg-row {
+          background-image: url('img/pexels-max-andrey-1254736.jpg');
+          background-size: cover;
+          background-position: center;
+          margin-top: 80px;
+        }
+        .footer-background{
+            background-color: #2faceb;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand ps-3" href="/"><img src="{{ asset('img/ap_logo.png') }}" alt="EX MATE Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                        aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav"> 
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Discover</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Activities</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>About</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Contact</strong></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-end ps-3">
+                    <a href="#" type="button" class="btn btn-outline-primary"><strong>Register</strong></a>
+                </div> 
+                <div class="text-end ps-3">
+                    <a href="#" type="button" class="btn btn-primary shadow"><strong>Sign In</strong></a>
+                </div> 
+            </div>
+        </nav>    
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 custom-bg-row">
+                <div class="row">
+                    <h2 class="text-center text-dark mt-3"><strong>Contact Us</strong></h2>
+                    <p class="text-dark lead text-center">We're open 24/7</p>
+                    <div class="col-lg-12">
+                        <div class="text-center text-dark mt-4">
+                            <h2>Questions? Get in touch!</h2>
+                            <h4>Call or Email Us</h4>
+                        </div>
+                        <div class="col-lg-12 px-4 text-theme-red text-center mb-1">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+94761234567" class="text-theme-red">076 1234567</a>
+                        </div>
+                        <div class="col-lg-12 px-4 text-theme-red text-center mb-1">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="#" class="text-theme-red">ExMate@234.lk</a>
+                        </div>
+                        <div class="container p-3">
+                            <p class="text-center lead mb-0">
+                                <a target="_blank" href="https://www.facebook.com/autopartnersl?_rdc=1&_rdr"><i class="fa-brands p-2 text-theme-red fa-square-facebook"></i></a>
+                                <a target="_blank" href="https://twitter.com/autopartner_lk"><i class="fa-brands p-2 text-theme-red fa-square-twitter"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/@AutoPartnerlk"><i class="fa-brands p-2 text-theme-red fa-square-youtube"></i></a>
+                                <a target="_blank" href="https://www.pinterest.com/autopartnersrilanka/"><i class="fa-brands p-2 text-theme-red fa-square-pinterest"></i></a>
+                                <a target="_blank" href="https://www.tiktok.com/@autopartner.lk"><i class="fa-brands p-2 text-theme-red fa-tiktok"></i></a>
+                                <a target="_blank" href="#"><i class="fa-brands p-2 text-theme-red fa-square-instagram"></i></a>
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-2">
+                <a class="ps-3" href="/"><img src="{{ asset('img/ap_logo.png') }}" alt="EX MATE Logo"></a>
+            </div>
+            <div class="col-lg-2">
+                <h5>Company</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Advertising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5>Explore</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Colombo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Matara</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kandy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Badulla</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Anuradhapura</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5>Terms and Policies</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Terms of use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acessibility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reward system</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5>Help</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cancel your booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Use Coupon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Refund Policies</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<footer class="container-fluid footer-background text-white py-3 mt-3">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center small">
+            <div class="mx-auto">2023 Team ExMate. All Right Reserved</div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

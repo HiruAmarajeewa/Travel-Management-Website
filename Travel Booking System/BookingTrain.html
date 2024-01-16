@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <style>
+        .custom-bg-row {
+          background-image: url('img/pexels-max-andrey-1254736.jpg');
+          background-size: cover;
+          background-position: center;
+          margin-top: 80px;
+        }
+        .footer-background{
+            background-color: #2faceb;
+        }
+        .home-top-images{
+            height: 350px;
+        }
+        .background{
+            background-color: #ADD8E6;
+        }
+        .footer-background{
+            background-color: #2faceb;
+        }
+        .home-bottom-images{
+            height: 250px;
+        }
+        .font{
+            font-style: italic;
+        }
+
+      </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand ps-3" href="/"><img src="{{ asset('img/ap_logo.png') }}" alt="EX MATE Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                        aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav"> 
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Discover</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Activities</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>About</strong></a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link" href="#"><strong>Contact</strong></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-end ps-3">
+                    <a href="#" type="button" class="btn btn-outline-primary"><strong>Register</strong></a>
+                </div> 
+                <div class="text-end ps-3">
+                    <a href="#" type="button" class="btn btn-primary shadow"><strong>Sign In</strong></a>
+                </div> 
+            </div>
+        </nav>    
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-top: 80px">
+            <div class="col-lg-12">
+                <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner rounded-0 shadow">
+                    <div class="carousel-item active">
+                        <img src="img/Trains/pexels-donald-tong-28614.jpg" alt="slide 1" class="d-block w-100 home-top-images">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Trains/pexels-elena-saharova-5098043.jpg" alt="slide 2" class="d-block w-100 home-top-images">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Trains/pexels-life-of-pix-21410.jpg" alt="slide 3" class="d-block w-100 home-top-images">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#Carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center ps-3 mt-3">
+            <a href="https://seatreservation.railway.gov.lk/mtktwebslr/" type="button" class="btn btn-primary shadow"><strong>Booking Your Train</strong></a>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-2">
+                <a class="ps-3" href="/"><img src="{{ asset('img/ap_logo.png') }}" alt="EX MATE Logo"></a>
+            </div>
+            <div class="col-lg-2">
+                <h5>Company</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Advertising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5>Explore</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Colombo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Matara</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kandy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Badulla</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Anuradhapura</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5>Terms and Policies</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Terms of use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acessibility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reward system</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5>Help</h5>
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cancel your booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Use Coupon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Refund Policies</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid footer-background text-white py-3 mt-3">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center small">
+                <div class="mx-auto">2023 Team ExMate. All Right Reserved</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
